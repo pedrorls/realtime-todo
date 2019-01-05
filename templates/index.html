@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <!-- link to the Todo MVC index.css file -->
+    <link rel="stylesheet" href="../static/index.css">
+    <title>Realtime Todo List</title>
+    <script src="https://js.pusher.com/4.1/pusher.min.js"></script>
+    <script src="../static/main.js"></script>
+    <script src="../static/pusher.js"></script>
+  </head>
+
+  <body>
+    <section class="todoapp">
+      <header class="header">
+        <h1>Todos</h1>
+        <input class="new-todo" placeholder="What needs to be done?" 
+          autofocus="" onkeypress="addItem(event)">
+      </header>
+
+      <section class="main">
+        <ul class="todo-list"></ul>
+      </section>
+
+      <footer class="footer"></footer>  
+    </section>
+  </body>
+  </html>
